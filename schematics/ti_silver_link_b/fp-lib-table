@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ti_graph_link_library")(type "KiCad")(uri "${KIPRJMOD}/footprints/ti_graph_link_library.pretty")(options "")(descr ""))
+)
