@@ -1,0 +1,295 @@
+(footprint "USB_B_Logitech_C270_cable_connector"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "USB Mini-B 5-pin SMD connector, http://downloads.lumberg.com/datenblaetter/en/2486_01.pdf")
+	(tags "USB USB_B USB_Mini connector")
+	(property "Reference" "J1"
+		(at -5.08 0.946 90)
+		(layer "F.SilkS")
+		(uuid "a30e6b30-88dd-4f6e-8ade-b1fb3169b7a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "USB_B"
+		(at 0 3.75 180)
+		(layer "F.Fab")
+		(uuid "3124a173-4fe7-46cf-ad37-39de754c241f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "USB_B_Logitech_C270_cable_connector"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11c03789-c23c-4466-bcb9-4130ea0e511b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e26d457c-02c5-4c31-bccd-dbfecedc5a06")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "USB Type B connector"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b15fd44-f0b2-44f0-a26a-15d129dc3b48")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.25 -3.41)
+		(end -2.11 -3.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc0a029a-4fd5-40af-809b-b4ef9d4edae0")
+	)
+	(fp_line
+		(start -3.25 0.1)
+		(end -3.25 -3.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd5f12b0-2db8-45c8-b65a-896f82fd823b")
+	)
+	(fp_line
+		(start 2.11 -3.41)
+		(end 3.25 -3.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "016a7d3d-6427-43f6-bf50-04693bfab162")
+	)
+	(fp_line
+		(start 3.25 0.1)
+		(end 3.25 -3.41)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9143f1f1-9587-4525-acfa-b3614ebb9adf")
+	)
+	(fp_line
+		(start -4.15 -3.95)
+		(end -4.15 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "36b234c7-b141-4df9-a0f0-845947d5bb69")
+	)
+	(fp_line
+		(start -4.15 -3.95)
+		(end -2.35 -3.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aa44bfe0-596a-4648-8146-1431b9a415dc")
+	)
+	(fp_line
+		(start -2.35 -3.95)
+		(end -2.35 -4.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "566d6a60-1447-46b4-8581-8992dcaa8772")
+	)
+	(fp_line
+		(start 2.35 -4.2)
+		(end -2.35 -4.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d6261ee-ff93-44b8-b63e-63b618ac8c33")
+	)
+	(fp_line
+		(start 2.35 -3.95)
+		(end 2.35 -4.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3205fa7c-25d4-434f-8e7b-780be27e7d7a")
+	)
+	(fp_line
+		(start 4.15 -3.95)
+		(end 2.35 -3.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "07f7f7ba-8bfd-4745-a6ac-5815f1d984b4")
+	)
+	(fp_line
+		(start 4.15 -3.95)
+		(end 4.15 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b2c58e3b-e894-48ca-84e8-baa5656227e0")
+	)
+	(fp_line
+		(start 4.15 2.5)
+		(end -4.15 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "009d2513-4801-4e87-87cd-78d573c9597a")
+	)
+	(fp_line
+		(start -3.4 -3.35)
+		(end -3.4 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "85b2b9ec-db1e-4e59-8320-9bbafd4d258f")
+	)
+	(fp_line
+		(start -3.4 -3.35)
+		(end 3.4 -3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e782743c-802a-4978-8780-eb522eb045b6")
+	)
+	(fp_line
+		(start -1.95 -3.35)
+		(end -1.6 -2.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e6885a4-79f7-4896-af11-303e193ced53")
+	)
+	(fp_line
+		(start -1.6 -2.85)
+		(end -1.25 -3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "445c1e62-1b22-4fd0-9169-5b78758037a5")
+	)
+	(fp_line
+		(start 3.4 0.25)
+		(end 3.4 -3.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "00bc256c-a79a-43e7-9e8e-f8b43e63baa2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.6 180)
+		(layer "F.Fab")
+		(uuid "ba93d14c-89a3-407e-b5ed-feac2b557d65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.6 -2.7)
+		(size 0.6 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "311b5869-5360-4670-8dc1-b3d5ec6120d4")
+	)
+	(pad "2" smd rect
+		(at -0.55 -2.7)
+		(size 0.6 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4c561fb8-6377-43a7-8268-c0ec5f1b0e5b")
+	)
+	(pad "3" smd rect
+		(at 0.55 -2.7)
+		(size 0.6 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a70d8849-f950-44b8-8d2a-e7e8e50c97bf")
+	)
+	(pad "4" smd rect
+		(at 1.6 -2.7)
+		(size 0.6 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8febe3ed-4c7e-49a4-9a0c-0ffc1750fc46")
+	)
+	(pad "5" smd rect
+		(at -2.65 1.2)
+		(size 1.5 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "388b378f-fbaa-4fbd-afc8-7391ce3d9c30")
+	)
+	(pad "5" smd rect
+		(at 2.65 1.2)
+		(size 1.5 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c32a0fa6-3f0a-4351-bc6c-d8ad41c54ff8")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Mini-B_Lumberg_2486_01_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
